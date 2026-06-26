@@ -130,7 +130,7 @@ Business validation included:
 
 📷 **Data Validation View**
 
-![Dataset Validation](Online%20Retail%20Step%202.png)
+![Dataset Validation](Online_Retail_New_Data_Validation.png)
 
 ---
 
