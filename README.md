@@ -1,6 +1,6 @@
 # 🛒 Online Retail Sales Analysis with SQL
 
-> An end-to-end SQL project involving data cleaning, feature engineering, statistical analysis, and exploratory data analysis (EDA) on a real-world online retail transactions dataset.
+An end-to-end SQL project involving data cleaning, feature engineering, statistical analysis, and exploratory data analysis (EDA) on a real-world online retail transactions dataset.
 
 ---
 
@@ -43,7 +43,6 @@ The dataset contains transactional sales records including invoices, products, c
 
 * Microsoft SQL Server
 * SQL Server Management Studio (SSMS)
-* T-SQL
 
 ---
 
@@ -75,24 +74,18 @@ The dataset underwent multiple cleaning and validation stages to improve analyti
 
 The dataset was first explored to understand its structure, record count, and available fields.
 
-📷 **Screenshot Placeholder**
+📷 **Dataset Preview**
 
-> *Add Screenshot: Dataset Preview (TOP 20 Records)*
-
----
+![Dataset Familiarization](REtail%20online%20top%2020.png)
 
 ## ✔ Missing Values Assessment
 
 Missing values were identified in:
 
-* Description
-* CustomerID
+Description
+CustomerID
 
 Business evaluation determined that missing CustomerID values should be retained because they still represented valid sales transactions.
-
-📷 **Screenshot Placeholder**
-
-> *Add Screenshot: Missing Values Assessment*
 
 ---
 
@@ -102,9 +95,13 @@ Duplicate transactional records were identified using a Common Table Expression 
 
 A total of **9,696 duplicate records** were removed.
 
-📷 **Screenshot Placeholder**
+📷 **Duplicate Detection View**
 
-> *Add Screenshot: Duplicate Detection Query*
+![Duplicate Detection](Online%20Retail%20Duplicates.png)
+
+📷 **Duplicate Removal View**
+
+![Duplicate Removal](Online%20Retail%20After%20delete%20Duplicate.png)
 
 ---
 
@@ -127,9 +124,9 @@ Business validation included:
 * Removing records with zero unit prices.
 * Confirming the absence of negative unit prices.
 
-📷 **Screenshot Placeholder**
+📷 **Data Validation View**
 
-> *Add Screenshot: Data Validation Queries*
+![Dataset Validation](Online%20Retail%20Step%202.png)
 
 ---
 
@@ -141,9 +138,13 @@ Revenue = Quantity × UnitPrice
 
 This enabled revenue-based analysis throughout the project.
 
-📷 **Screenshot Placeholder**
+📷 **New Revenue Column View**
 
-> *Add Screenshot: Revenue Column Creation*
+![Dataset Validation](Online%20Retail%20Revenue%20Column.png)
+
+📷 **New Revenue Column Verification View**
+
+![Dataset Validation](Online%20Retail%20Revenue%20Verification.png)
 
 ---
 
@@ -161,10 +162,6 @@ Summary statistics were generated after cleaning the dataset.
 
 The dataset represents substantial commercial activity, generating approximately **£9.75 million** in revenue across more than half a million transactions.
 
-📷 **Screenshot Placeholder**
-
-> *Add Screenshot: Statistical Analysis Output*
-
 ---
 
 # 📈 Exploratory Data Analysis (EDA)
@@ -175,9 +172,9 @@ The cleaned dataset was analyzed to uncover key business trends.
 
 Products were ranked based on total quantity sold.
 
-📷 **Screenshot Placeholder**
+📷 **Top Selling Products View**
 
-> *Add Screenshot: Top Selling Products*
+![Top Selling Products](Online%20retail,%20top%2010%20selling%20product.png)
 
 ---
 
@@ -185,9 +182,9 @@ Products were ranked based on total quantity sold.
 
 Revenue analysis showed that the products generating the most revenue were not always those with the highest sales volume.
 
-📷 **Screenshot Placeholder**
+📷 **Highest Revenue Products View**
 
-> *Add Screenshot: Top Revenue Products*
+![Highest Revenue Products](Online%20retail,%20Top%2010%20products%20by%20Revenue.png)
 
 ---
 
@@ -195,9 +192,9 @@ Revenue analysis showed that the products generating the most revenue were not a
 
 Revenue increased steadily throughout 2011, peaking in **November**, suggesting strong seasonal demand.
 
-📷 **Screenshot Placeholder**
+📷 **Monthly Sales Trend View**
 
-> *Add Screenshot: Monthly Revenue Trend*
+![Monthly Sales Trend](Online%20Retail%20Monthly%20sales%20trend.png)
 
 ---
 
@@ -205,9 +202,9 @@ Revenue increased steadily throughout 2011, peaking in **November**, suggesting 
 
 A relatively small group of customers generated a disproportionately large share of total revenue.
 
-📷 **Screenshot Placeholder**
+📷 **Customer Spending Analysis View**
 
-> *Add Screenshot: Top Customers by Revenue*
+![Customer Spending Analysis](Online%20Retail%20Monthly%20sales%20trend.png)
 
 ---
 
@@ -231,8 +228,8 @@ This project demonstrates practical SQL techniques used in real-world retail ana
 
 ## 👤 Author
 
-**Victor Chimbuo**
+**I Victor Chimbuo**
 
-Aspiring Data Analyst | SQL | Power BI | Excel
+Data Analyst | SQL | Power BI | Excel
 
 If you found this project useful, feel free to ⭐ the repository or connect with me on LinkedIn.
