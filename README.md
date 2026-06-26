@@ -204,14 +204,24 @@ A relatively small group of customers generated a disproportionately large share
 
 📷 **Customer Spending Analysis View**
 
-![Customer Spending Analysis](Online%20Retail%20Monthly%20sales%20trend.png)
+![Customer Spending Analysis](Online_Retail_Customer_spending_Analysis.png)
+
+---
+
+## 5. Highest Revenue Countries
+
+Revenue analysis showed that United kingdom is the country with the highest revenue generated, followed by Netherlands. The country with thw least revenue is sweden.
+
+📷 **Highest Revenue Country View**
+
+![Highest Revenue Country](Online%20Retail%20Sales%20top%20country%20by520revenue.png)
 
 ---
 
 # 🔍 Key Business Insights
 
 * The business generated approximately **£9.75 million** in revenue.
-* Over **541,000 retail transactions** were processed during the reporting period.
+* Over **530,000 retail transactions** were processed during the reporting period.
 * Duplicate records were successfully identified and removed using SQL window functions.
 * Product returns were retained to preserve business accuracy.
 * Revenue leaders differed from volume leaders, highlighting the importance of product pricing.
