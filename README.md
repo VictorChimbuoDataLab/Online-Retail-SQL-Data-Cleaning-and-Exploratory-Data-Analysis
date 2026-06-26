@@ -87,6 +87,10 @@ CustomerID
 
 Business evaluation determined that missing CustomerID values should be retained because they still represented valid sales transactions.
 
+📷 **Missing Values View**
+
+![Missing Values](Online%20retail%20Zero%20Prices.png)
+
 ---
 
 ## ✔ Duplicate Detection & Removal
