@@ -214,7 +214,7 @@ Revenue analysis showed that United kingdom is the country with the highest reve
 
 📷 **Highest Revenue Country View**
 
-![Highest Revenue Country](Online%20Retail%20Sales%20top%20country%20by520revenue.png)
+![Highest Revenue Country](Online%20Retail%20Sales%20top%20country%20by%20revenue.png)
 
 ---
 
